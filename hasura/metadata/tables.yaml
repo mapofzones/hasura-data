@@ -1,1 +1,15 @@
-[]
+- table:
+    schema: public
+    name: chart
+  select_permissions:
+  - role: front
+    permission:
+      columns:
+      - blockchain
+      - network_id
+      - chart_type
+      - point_index
+      - point_value
+      filter: {}
+      limit: 10000
+      allow_aggregations: true

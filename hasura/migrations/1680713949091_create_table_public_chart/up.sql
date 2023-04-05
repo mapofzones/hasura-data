@@ -1,0 +1,1 @@
+CREATE TABLE "public"."chart"("blockchain" varchar NOT NULL, "network_id" varchar NOT NULL, "chart_type" varchar NOT NULL, "point_index" integer NOT NULL, "point_value" numeric NOT NULL, PRIMARY KEY ("blockchain","network_id","chart_type","point_index") );
